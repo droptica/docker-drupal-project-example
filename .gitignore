@@ -1,8 +1,8 @@
 docker/database
-databases
-!databases/README.txt
-files
-!files/README.txt
+/databases/*
+!/databases/README.txt
+/files/*
+!/files/README.txt
 
 .env
 .idea
