@@ -1,0 +1,14 @@
+d_application_api.main_page:
+  route_name: d_application_api.main_page
+  title: Application
+  description: 'Application pages'
+  parent: system.admin
+  weight: 50
+
+d_application_api.admin_views:
+  route_name: d_application_api.admin_views
+  title: Views
+  description: 'Views'
+  parent: d_application_api.main_page
+  weight: 50
+

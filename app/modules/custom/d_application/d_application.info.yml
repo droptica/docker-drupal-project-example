@@ -1,0 +1,11 @@
+name: Application
+description: Main module for application (Droptica)
+package: APP
+type: module
+version: 1.0-beta1
+core: 8.x
+dependencies:
+  - node
+  - d_application_api
+  - features
+  - features_ui
