@@ -1,0 +1,17 @@
+docker/database
+databases
+!databases/README.txt
+files
+!files/README.txt
+
+.env
+.idea
+*.pyc
+docker/docker_drupal/config_local.py
+
+
+# Ignore paths that contain user-generated content.
+app/sites/*/files
+app/sites/*/private
+app/sites/*/settings*.php
+app/sites/*/services*.yml

@@ -23,10 +23,3 @@ function d_application_update_8001() {
   \Drupal::service('d_application_api.features')->import(['application']);
   drupal_flush_all_caches();
 }
-
-/**
- * Update 8002
- */
-function d_application_update_8002() {
-  \Drupal::service('module_installer')->install(['masquerade']);
-}
